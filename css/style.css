@@ -1,0 +1,329 @@
+.home, .bio, .events, .news{
+	background-image: url('../images/jill-scott-name.jpeg');
+	background-repeat: no-repeat;
+	background-size: 22%;
+	background-position: 650px 50px;
+	margin:0 auto;
+}
+
+.header-container h1{
+	background-image: url('../images/jill-scott-blkwht.jpeg');
+	background-repeat: no-repeat;
+	background-position: top;
+    width: 940px;
+    min-height: 160px;
+    margin: 0 110px;
+    text-indent: -9999px;
+}
+
+.float-container{
+	overflow: hidden;
+}
+
+
+.navigation-container{
+	padding: 10px;
+	margin-top: -110px;
+	border-bottom: 3px solid red;
+
+}
+
+.nav-bar {
+	margin-left: 100px;
+	float: left;	
+}
+
+.nav-bar li{
+	color: white;
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 15px 20px 10px 20px;
+	}
+
+.nav-bar a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav-bar a:hover {
+	color:red;
+}
+
+.nav-bar a:active{
+	color:red;
+	text-decoration: underline;
+}
+
+.social-icon{
+	float: left;
+	margin-left: 500px;
+}	
+
+.social-icon img{
+	height: 30px;
+	border-radius: 15px;
+}	
+
+.social-icon li{
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+}
+
+
+
+.info-container {
+	padding: 80px;
+    background-image: url('../images/jillscott-photo-header.jpeg');	
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-color: #FFF1DE;
+}
+
+/* =============================== */
+/* ======== Main Container ======= */
+/* =============================== */
+
+
+.main-content, .side-content, #index-main-content{
+     min-height: 100px;
+     float: left;
+     opacity: 0.;
+}
+
+.main-content {
+     width: 60%;
+     margin-left: 20px;
+     background-color: black;
+     padding: 20px 20px 20px 20px;
+     font-family: helvetica;
+     color:white;
+}
+.main-content .content-title{
+	color: white;
+	text-transform: uppercase;
+	font-size: 23px;
+	text-align: left;
+	border-bottom: 2px dotted red;
+	padding-bottom: 10px;
+}
+
+#index-main-content {
+     width: 60%;
+     margin-left: 50px;
+ }
+#index-main-content img{
+	margin: 0 auto;
+	
+}
+
+/* =============================== */
+/* ======== Side Container ======= */
+/* =============================== */
+
+.side-content{
+     width: 30%;
+     margin-left: 25px;
+     color: white;
+     font-family: Helvetica;
+     padding: 20px 10px 20px 10px;
+     background-color: black;
+}
+
+.side-content h3{
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	border-bottom: 2px dotted red;
+	padding-bottom: 10px;
+	font-style: bolder;
+}
+
+.footer-container{
+	background-color: black;
+	color: gray;
+	padding: 15px;
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+	opacity: 0.85;
+}
+/* =============================== */
+/* ========== HOME VIDEO ======== */
+/* =============================== */
+
+iframe{
+	margin:0 auto;
+	width: 200px;
+	height: 200px;
+}
+
+.home-video{
+	float: left;
+	margin:5px;
+	width: 45%;
+	padding-left:7px; 
+}
+
+/* =============================== */
+/* ========== BIO PHOTO ========== */
+/* =============================== */
+
+.side-content img{
+	width: 450px;
+	margin: 0 auto;
+	min-height: 490px;
+}
+
+/* =============================== */
+/* ========= BIO CONTAINER ======= */
+/* =============================== */
+
+.bio-container p{
+	padding-top: 10px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-style: italic;
+	line-height: 25px;
+}
+
+.bio-container p a{
+	color: red;
+	text-decoration: none;
+}
+
+.bio-container a:hover{
+	color: #35D4FF;
+	font-style: bold
+}
+
+.bio-container {
+	padding: 20px;
+    min-height: 400px;
+    background-color: black;
+    background-width: 1440px;
+
+}
+
+.side-content img{
+	width: 100%;
+	min-height: 562px;
+	
+}
+
+/* =============================== */
+/* ======= EVENTS CONTAINER ====== */
+/* =============================== */
+
+.events-container { 
+	width: 100%;
+	background-color: black; 
+	padding: 40px 10px;
+}
+
+.events-container li.row div {
+	float: left;
+	padding: 2.5%;
+	border-bottom: 1px solid red;
+}
+
+.event-date { width: 10%; }
+.event-location { width: 15%; }
+.event-venue { width: 40%; }
+.buy-tickets, .sold-tickets { width: 15%;}
+.buy-tickets a, .sold-tickets a{
+	border-radius: 15px;
+	text-align: center;
+	padding: 10%;
+	margin-top: .5%;
+}
+.buy-tickets a {
+	background-color: red;
+}	
+
+.buy-tickets a:hover{
+	background-color: white;
+	color: red;
+}
+
+.sold-tickets a{
+	background-color: gray;
+}
+
+.live-video{
+	width: 400px;
+	height: 460px;	
+}
+
+/* =============================== */
+/* ======= NEWS CONTAINER ====== */
+/* =============================== */
+
+.news-container { 
+	width: 100%;
+	background-color: black; 
+	padding: 35px 5px;
+}
+
+.news-container p {
+	padding-top: 10px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+.news-container li div {
+	padding-top: 2.0%;
+	padding-bottom: 2.0%;
+}
+
+.news-container li .entry{
+	background-color: white;
+	padding: 1.3%;
+	color: gray;
+	width: 50%
+}
+
+.news-container li .submit-button{
+	margin-top: 20px;
+}
+
+.submit-button a{	
+	background-color: gray;
+	width: 100%;
+	padding: 1.5%;
+	text-align: center;
+	border-radius: 15px;
+	
+}
+.submit-button a:hover{
+	background-color: red;
+	color: white;
+}
+
+/* =============================== */
+/* ============= MAP ============= */
+/* =============================== */
+
+.map{
+	padding-top: 20px;
+	width: 400px;
+	height: 460px;	
+	margin-left: 10px;
+}
+.side-content .map span{
+	color: white;
+	padding-top: 20px;
+}
+.side-content a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
